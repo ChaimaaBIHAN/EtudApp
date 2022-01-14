@@ -20,9 +20,16 @@
         </activity>
         <activity android:name=".Authentification">
             <intent-filter>
-                <action android:name="android.intent.actionAuthentication" />
+                <action android:name="android.intent.action.Authentification" />
 
-                <category android:name="android.intent.category.Default" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.Home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

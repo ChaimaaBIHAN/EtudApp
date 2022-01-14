@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68752035647",
+    "project_id": "etudapp-bb391",
+    "storage_bucket": "etudapp-bb391.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68752035647:android:2a7d36779f4120185f4d8a",
+        "android_client_info": {
+          "package_name": "com.example.etudapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68752035647-c6o9v4ek5pbhlpmojmj836sa6c7vrigo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNDARl7cd4WJ6flZ0sx55FAzhSfCFEWYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68752035647-c6o9v4ek5pbhlpmojmj836sa6c7vrigo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
