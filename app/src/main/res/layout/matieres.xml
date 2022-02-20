@@ -81,15 +81,31 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="2"
-            android:gravity="center">
-            <Button
-                android:id="@+id/matières"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="6">
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/rectangle_42"
-                android:text="Matières"
-                android:textColor="@color/black"
-                android:textSize="10dp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <Button
+                    android:id="@+id/matière"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_39"
+                    android:text="Matières"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -100,16 +116,33 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="2"
-            android:gravity="center">
-            <Button
-            android:id="@+id/cours"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/rectangle_37"
-            android:text="Cours"
-            android:textColor="@color/white"
-            android:textSize="10dp" />
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="6">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <Button
+                    android:id="@+id/cours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_37"
+                    android:text="cours"
+                    android:textColor="@color/white"
+                    android:textSize="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -117,15 +150,11 @@
             android:layout_weight="3" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.2" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="7.8"
+        android:layout_weight="8"
         android:orientation="vertical">
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
